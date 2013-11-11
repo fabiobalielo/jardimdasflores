@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="br.com.pampili.jardimdasflores" version="1.0">
+
+	<name>Nana no Jardim das Flores</name>
+	<description>Nana Rosa se aventura num jardim encantado.</description>
+	<author href="http://www.pubblicite.com.br" email="webmaster@pubblicite.com.br">Fábio Balielo</author>
+
+	<gap:platforms>
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+	<icon src="icon-76.png" width="76" height="76" gap:role="default" />
+	<icon src="icon-120.png" width="120" height="120" gap:role="default" />
+	<icon src="icon-152.png" width="152" height="152" gap:role="default" />
+
+	<preference name="permissions" value="none"/>
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="target-device" value="tablet" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
